@@ -1,0 +1,38 @@
+@import "./variables";
+
+nav {
+   position: fixed;
+   width: 100%;
+   top: 0;
+    z-index: 1;
+    height: 70px;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5rem;
+    padding-left: 50px;
+    background-color: white;
+
+    .logo {
+        width: auto;
+        border: 1px solid black;
+        padding: 0.5rem 2rem;
+        font-size: 1.2rem;
+       .resort {
+        color: $primary-color;
+       }
+    }
+
+    .links {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        a {
+            color: black;
+            text-decoration: none;
+            font-size: 1.3rem;
+        }
+    }
+}
+
